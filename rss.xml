@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <link>https://github.com/mawuen/mawuen.github.io</link>
+        <description>Welcome to my Blog, We talk about tech, IA, python and RPi ... Just follow the rabbit 🐇</description>
+        <lastBuildDate>Sun, 14 Jun 2020 08:53:37 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://github.com/mawuen/mawuen.github.io/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[10 Reasons to use python]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/</guid>
+            <pubDate>Sun, 05 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[Python est un langage haut niveau avec...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Les Meirveilles du language Python!]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/</guid>
+            <pubDate>Sun, 05 Feb 2012 00:00:00 GMT</pubDate>
+            <description><![CDATA[J’en apprends tous les jours sur le Python.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Qu'est-ce qu'une api?]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/</guid>
+            <pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Votre expérience sur internet s’exécute sur des API.]]></description>
+            <enclosure url="https://github.com/mawuen/mawuen.github.io/blog/assets/posts/API.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[What's the most beautiful website in the world]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/</guid>
+            <pubDate>Tue, 28 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Any website that uses a static generator.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Instalation de Archlinux sur Rapsberry Pi 3B]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/</guid>
+            <pubDate>Tue, 02 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Archlinux est un systeme d'exploitation Linux...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Voilà pourquoi confier votre site à une Agence Digital!]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/</guid>
+            <pubDate>Fri, 15 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[La tentation est grande de vouloir créer un site gratuitement.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Savoir bien rédiger son cahier des charges!]]></title>
+            <link>https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/</link>
+            <guid>https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/</guid>
+            <pubDate>Fri, 15 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[A chaque projet son cahier des charges.]]></description>
+        </item>
+    </channel>
+</rss>

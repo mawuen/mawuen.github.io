@@ -1,0 +1,59 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "",
+    "home_page_url": "https://github.com/mawuen/mawuen.github.io",
+    "feed_url": "https://github.com/mawuen/mawuen.github.io/feed.json",
+    "description": "Welcome to my Blog, We talk about tech, IA, python and RPi ... Just follow the rabbit 🐇",
+    "items": [
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/",
+            "title": "10 Reasons to use python",
+            "summary": "Python est un langage haut niveau avec...",
+            "date_modified": "2012-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/",
+            "title": "Les Meirveilles du language Python!",
+            "summary": "J’en apprends tous les jours sur le Python.",
+            "date_modified": "2012-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/",
+            "title": "Qu'est-ce qu'une api?",
+            "summary": "Votre expérience sur internet s’exécute sur des API.",
+            "image": "https://github.com/mawuen/mawuen.github.io/blog/assets/posts/API.png",
+            "date_modified": "2019-01-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/",
+            "title": "What's the most beautiful website in the world",
+            "summary": "Any website that uses a static generator.",
+            "date_modified": "2020-01-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/",
+            "title": "Instalation de Archlinux sur Rapsberry Pi 3B",
+            "summary": "Archlinux est un systeme d'exploitation Linux...",
+            "date_modified": "2020-06-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/",
+            "title": "Voilà pourquoi confier votre site à une Agence Digital!",
+            "summary": "La tentation est grande de vouloir créer un site gratuitement.",
+            "date_modified": "2019-02-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/",
+            "title": "Savoir bien rédiger son cahier des charges!",
+            "summary": "A chaque projet son cahier des charges.",
+            "date_modified": "2019-02-15T00:00:00.000Z"
+        }
+    ]
+}

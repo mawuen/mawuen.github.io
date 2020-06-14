@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/mawuen/mawuen.github.io</id>
+    <title></title>
+    <updated>2020-06-14T08:53:37.734Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://github.com/mawuen/mawuen.github.io"/>
+    <link rel="self" href="https://github.com/mawuen/mawuen.github.io/feed.atom"/>
+    <subtitle>Welcome to my Blog, We talk about tech, IA, python and RPi ... Just follow the rabbit 🐇</subtitle>
+    <entry>
+        <title type="html"><![CDATA[10 Reasons to use python]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/">
+        </link>
+        <updated>2012-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python est un langage haut niveau avec...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les Meirveilles du language Python!]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/">
+        </link>
+        <updated>2012-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[J’en apprends tous les jours sur le Python.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qu'est-ce qu'une api?]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2019/01/05/cest-quoi-un-api/">
+        </link>
+        <updated>2019-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Votre expérience sur internet s’exécute sur des API.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's the most beautiful website in the world]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2020/01/28/whats-the-most-beautiful-website-world/">
+        </link>
+        <updated>2020-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Any website that uses a static generator.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Instalation de Archlinux sur Rapsberry Pi 3B]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2020/06/02/instalation-de-archlinux-sur-rapsberry-pi-3b/">
+        </link>
+        <updated>2020-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Archlinux est un systeme d'exploitation Linux...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voilà pourquoi confier votre site à une Agence Digital!]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/">
+        </link>
+        <updated>2019-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[La tentation est grande de vouloir créer un site gratuitement.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Savoir bien rédiger son cahier des charges!]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2019/02/15/comment-bien-rediger-son-cahier-des-charges/">
+        </link>
+        <updated>2019-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A chaque projet son cahier des charges.]]></summary>
+    </entry>
+</feed>
