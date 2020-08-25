@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/mawuen/mawuen.github.io</id>
+    <title></title>
+    <updated>2020-08-25T10:02:06.609Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://github.com/mawuen/mawuen.github.io"/>
+    <link rel="self" href="https://github.com/mawuen/mawuen.github.io/feed.atom"/>
+    <subtitle>Welcome to my Blog, We talk about tech, IA, python and RPi ... Just follow the rabbit 🐇</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Machine Learning cheatsheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2018/12/02/ml-cheatsheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2018/12/02/ml-cheatsheet/">
+        </link>
+        <updated>2018-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull ML cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP Generators cheatsheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2019/02/06/php-generators-cheatsheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2019/02/06/php-generators-cheatsheet/">
+        </link>
+        <updated>2019-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull PHP Generators cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ascii—Astuces]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/12/25/ascii-astuces/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/12/25/ascii-astuces/">
+        </link>
+        <updated>2012-12-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Voici quelques petites astuces afin de manipuler...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vim cheat sheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2018/12/02/vim-cheatsheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2018/12/02/vim-cheatsheet/">
+        </link>
+        <updated>2018-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull Vim cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remove old Linux kernels]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2010/03/12/remove-old-linux-kernels/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2010/03/12/remove-old-linux-kernels/">
+        </link>
+        <updated>2010-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to remove old Linux kernels.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHPUnit cheatsheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2011/05/07/phpunit-cheatsheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2011/05/07/phpunit-cheatsheet/">
+        </link>
+        <updated>2011-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull PHPUnit cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decouvez Julia un nouveau langage de programation]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/01/05/discovery-julia/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/01/05/discovery-julia/">
+        </link>
+        <updated>2012-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Il s'agit d'un subtile mélange entre les langage Python, R et Matlab.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Http cheat sheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2011/05/27/http-cheat-sheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2011/05/27/http-cheat-sheet/">
+        </link>
+        <updated>2011-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull Http cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arithmetic Lexer]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/01/03/arithmetic-lexer/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/01/03/arithmetic-lexer/">
+        </link>
+        <updated>2012-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As part of a project dealing with implementing algorithm...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Installation de Julia]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/06/installation-julia/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/06/installation-julia/">
+        </link>
+        <updated>2012-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Voici un guide rapide de mise en route de Julia...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Les Meirveilles du language Python!]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/">
+        </link>
+        <updated>2012-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[J’en apprends tous les jours sur le Python.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Reasons to use python]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/">
+        </link>
+        <updated>2012-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python est un langage haut niveau avec...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Installing IHaskell on Ubuntu 14.04 with Stack]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/02/05/installing-haskell-on-ubuntu-14-with-stack/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/02/05/installing-haskell-on-ubuntu-14-with-stack/">
+        </link>
+        <updated>2012-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[we're going through the installation of IHaskell...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voilà pourquoi confier votre site à une Agence Digital!]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/">
+        </link>
+        <updated>2019-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[La tentation est grande de vouloir créer un site gratuitement.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Installing IHaskell on Ubuntu 16.04 with Stack]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2013/02/05/installing-haskell-on-ubuntu-16-04-with-stack/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2013/02/05/installing-haskell-on-ubuntu-16-04-with-stack/">
+        </link>
+        <updated>2013-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[we're going to updating the installation of IHaskell...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doctrine's cheat sheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/12/02/doctrine-s-cheat-sheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/12/02/doctrine-s-cheat-sheet/">
+        </link>
+        <updated>2012-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull Doctrine's cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Curl cheatsheet]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2012/12/02/curl-cheatsheet/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2012/12/02/curl-cheatsheet/">
+        </link>
+        <updated>2012-12-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull Curl cheat sheet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sciences et critique]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2013/02/13/sciences-et-critique/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2013/02/13/sciences-et-critique/">
+        </link>
+        <updated>2013-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Une récente réflexion personnelle m’a amené à considérer...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python DBM Module]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2014/01/03/til-python-has-a-built-in-persistent-key-value-store/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2014/01/03/til-python-has-a-built-in-persistent-key-value-store/">
+        </link>
+        <updated>2014-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Python is, in a lot of ways, a very rich language...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[User management in Linux]]></title>
+        <id>https://github.com/mawuen/mawuen.github.io/2013/02/25/user-management-in-linux/</id>
+        <link href="https://github.com/mawuen/mawuen.github.io/2013/02/25/user-management-in-linux/">
+        </link>
+        <updated>2013-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A very usefull cheat sheet code for creating...]]></summary>
+    </entry>
+</feed>

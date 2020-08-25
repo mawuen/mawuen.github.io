@@ -1,0 +1,149 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "",
+    "home_page_url": "https://github.com/mawuen/mawuen.github.io",
+    "feed_url": "https://github.com/mawuen/mawuen.github.io/feed.json",
+    "description": "Welcome to my Blog, We talk about tech, IA, python and RPi ... Just follow the rabbit 🐇",
+    "items": [
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2018/12/02/ml-cheatsheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2018/12/02/ml-cheatsheet/",
+            "title": "Machine Learning cheatsheet",
+            "summary": "A very usefull ML cheat sheet.",
+            "date_modified": "2018-12-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2019/02/06/php-generators-cheatsheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2019/02/06/php-generators-cheatsheet/",
+            "title": "PHP Generators cheatsheet",
+            "summary": "A very usefull PHP Generators cheat sheet.",
+            "date_modified": "2019-02-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/12/25/ascii-astuces/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/12/25/ascii-astuces/",
+            "title": "Ascii—Astuces",
+            "summary": "Voici quelques petites astuces afin de manipuler...",
+            "date_modified": "2012-12-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2018/12/02/vim-cheatsheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2018/12/02/vim-cheatsheet/",
+            "title": "Vim cheat sheet",
+            "summary": "A very usefull Vim cheat sheet.",
+            "date_modified": "2018-12-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2010/03/12/remove-old-linux-kernels/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2010/03/12/remove-old-linux-kernels/",
+            "title": "Remove old Linux kernels",
+            "summary": "How to remove old Linux kernels.",
+            "date_modified": "2010-03-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2011/05/07/phpunit-cheatsheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2011/05/07/phpunit-cheatsheet/",
+            "title": "PHPUnit cheatsheet",
+            "summary": "A very usefull PHPUnit cheat sheet.",
+            "date_modified": "2011-05-07T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/01/05/discovery-julia/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/01/05/discovery-julia/",
+            "title": "Decouvez Julia un nouveau langage de programation",
+            "summary": "Il s'agit d'un subtile mélange entre les langage Python, R et Matlab.",
+            "date_modified": "2012-01-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2011/05/27/http-cheat-sheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2011/05/27/http-cheat-sheet/",
+            "title": "Http cheat sheet",
+            "summary": "A very usefull Http cheat sheet.",
+            "date_modified": "2011-05-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/01/03/arithmetic-lexer/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/01/03/arithmetic-lexer/",
+            "title": "Arithmetic Lexer",
+            "summary": "As part of a project dealing with implementing algorithm...",
+            "date_modified": "2012-01-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/06/installation-julia/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/06/installation-julia/",
+            "title": "Installation de Julia",
+            "summary": "Voici un guide rapide de mise en route de Julia...",
+            "date_modified": "2012-02-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/05/python-facts/",
+            "title": "Les Meirveilles du language Python!",
+            "summary": "J’en apprends tous les jours sur le Python.",
+            "date_modified": "2012-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/05/_05-dix-reasons-to-use-python/",
+            "title": "10 Reasons to use python",
+            "summary": "Python est un langage haut niveau avec...",
+            "date_modified": "2012-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/02/05/installing-haskell-on-ubuntu-14-with-stack/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/02/05/installing-haskell-on-ubuntu-14-with-stack/",
+            "title": "Installing IHaskell on Ubuntu 14.04 with Stack",
+            "summary": "we're going through the installation of IHaskell...",
+            "date_modified": "2012-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2019/02/15/pourquoi-confier-son-site-a-une-agence-digitale/",
+            "title": "Voilà pourquoi confier votre site à une Agence Digital!",
+            "summary": "La tentation est grande de vouloir créer un site gratuitement.",
+            "date_modified": "2019-02-15T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2013/02/05/installing-haskell-on-ubuntu-16-04-with-stack/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2013/02/05/installing-haskell-on-ubuntu-16-04-with-stack/",
+            "title": "Installing IHaskell on Ubuntu 16.04 with Stack",
+            "summary": "we're going to updating the installation of IHaskell...",
+            "date_modified": "2013-02-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/12/02/doctrine-s-cheat-sheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/12/02/doctrine-s-cheat-sheet/",
+            "title": "Doctrine's cheat sheet",
+            "summary": "A very usefull Doctrine's cheat sheet.",
+            "date_modified": "2012-12-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2012/12/02/curl-cheatsheet/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2012/12/02/curl-cheatsheet/",
+            "title": "Curl cheatsheet",
+            "summary": "A very usefull Curl cheat sheet.",
+            "date_modified": "2012-12-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2013/02/13/sciences-et-critique/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2013/02/13/sciences-et-critique/",
+            "title": "Sciences et critique",
+            "summary": "Une récente réflexion personnelle m’a amené à considérer...",
+            "date_modified": "2013-02-13T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2014/01/03/til-python-has-a-built-in-persistent-key-value-store/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2014/01/03/til-python-has-a-built-in-persistent-key-value-store/",
+            "title": "Python DBM Module",
+            "summary": "Python is, in a lot of ways, a very rich language...",
+            "date_modified": "2014-01-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://github.com/mawuen/mawuen.github.io/2013/02/25/user-management-in-linux/",
+            "url": "https://github.com/mawuen/mawuen.github.io/2013/02/25/user-management-in-linux/",
+            "title": "User management in Linux",
+            "summary": "A very usefull cheat sheet code for creating...",
+            "date_modified": "2013-02-25T00:00:00.000Z"
+        }
+    ]
+}

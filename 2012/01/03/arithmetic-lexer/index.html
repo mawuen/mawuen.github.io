@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Arithmetic Lexer</title>
+    <meta name="generator" content="VuePress 1.5.1">
+    <link rel="alternate" type="application/rss+xml" href="https://github.com/mawuen/mawuen.github.io/rss.xml" title=" RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://github.com/mawuen/mawuen.github.io/feed.atom" title=" Atom Feed">
+    <link rel="alternate" type="application/json" href="https://github.com/mawuen/mawuen.github.io/feed.json" title=" JSON Feed">
+    <meta name="description" content="As part of a project dealing with implementing algorithm...">
+    <link rel="preload" href="/assets/css/0.styles.876c9db6.css" as="style"><link rel="preload" href="/assets/js/app.a645ad51.js" as="script"><link rel="preload" href="/assets/js/7.975a3fea.js" as="script"><link rel="preload" href="/assets/js/3.f5cf5793.js" as="script"><link rel="preload" href="/assets/js/25.30e7b88e.js" as="script"><link rel="preload" href="/assets/js/5.99340dc9.js" as="script"><link rel="preload" href="/assets/js/8.49b41bc0.js" as="script"><link rel="prefetch" href="/assets/js/10.579ce7f1.js"><link rel="prefetch" href="/assets/js/11.ecbd9bed.js"><link rel="prefetch" href="/assets/js/12.02337c42.js"><link rel="prefetch" href="/assets/js/13.e04dcf2c.js"><link rel="prefetch" href="/assets/js/14.c23b369d.js"><link rel="prefetch" href="/assets/js/15.f769c986.js"><link rel="prefetch" href="/assets/js/16.945d8815.js"><link rel="prefetch" href="/assets/js/17.019422ee.js"><link rel="prefetch" href="/assets/js/18.c355553e.js"><link rel="prefetch" href="/assets/js/19.6a327668.js"><link rel="prefetch" href="/assets/js/20.dc2f6bd0.js"><link rel="prefetch" href="/assets/js/21.d60f0ff2.js"><link rel="prefetch" href="/assets/js/22.c68e7bae.js"><link rel="prefetch" href="/assets/js/23.c5bb46d4.js"><link rel="prefetch" href="/assets/js/24.db0f1261.js"><link rel="prefetch" href="/assets/js/26.d142ab7a.js"><link rel="prefetch" href="/assets/js/27.24400179.js"><link rel="prefetch" href="/assets/js/28.16c1a16a.js"><link rel="prefetch" href="/assets/js/29.1203313f.js"><link rel="prefetch" href="/assets/js/30.fbd26ff2.js"><link rel="prefetch" href="/assets/js/31.02f13194.js"><link rel="prefetch" href="/assets/js/32.54a64be8.js"><link rel="prefetch" href="/assets/js/33.6819dc83.js"><link rel="prefetch" href="/assets/js/34.366138a9.js"><link rel="prefetch" href="/assets/js/35.2bec441d.js"><link rel="prefetch" href="/assets/js/36.573b7e7d.js"><link rel="prefetch" href="/assets/js/37.c2eb4227.js"><link rel="prefetch" href="/assets/js/38.14a494ee.js"><link rel="prefetch" href="/assets/js/39.dea4d93d.js"><link rel="prefetch" href="/assets/js/4.24606bc3.js"><link rel="prefetch" href="/assets/js/40.0a227135.js"><link rel="prefetch" href="/assets/js/41.693a5f9d.js"><link rel="prefetch" href="/assets/js/42.71276254.js"><link rel="prefetch" href="/assets/js/43.0cf3c2e7.js"><link rel="prefetch" href="/assets/js/44.9f4b29b6.js"><link rel="prefetch" href="/assets/js/45.b7615705.js"><link rel="prefetch" href="/assets/js/46.c90fabcc.js"><link rel="prefetch" href="/assets/js/47.fc85cd96.js"><link rel="prefetch" href="/assets/js/48.6bbbd27b.js"><link rel="prefetch" href="/assets/js/49.49dfc775.js"><link rel="prefetch" href="/assets/js/50.4c44001f.js"><link rel="prefetch" href="/assets/js/51.fbe8c48f.js"><link rel="prefetch" href="/assets/js/52.95443945.js"><link rel="prefetch" href="/assets/js/53.0852a3b5.js"><link rel="prefetch" href="/assets/js/54.d5befe81.js"><link rel="prefetch" href="/assets/js/55.d34ff416.js"><link rel="prefetch" href="/assets/js/56.bd61a197.js"><link rel="prefetch" href="/assets/js/57.1f834384.js"><link rel="prefetch" href="/assets/js/58.44c14f26.js"><link rel="prefetch" href="/assets/js/59.844eb11b.js"><link rel="prefetch" href="/assets/js/6.ae161697.js"><link rel="prefetch" href="/assets/js/60.37a25e3f.js"><link rel="prefetch" href="/assets/js/61.ed0252cb.js"><link rel="prefetch" href="/assets/js/62.d6c354b3.js"><link rel="prefetch" href="/assets/js/63.df20062e.js"><link rel="prefetch" href="/assets/js/64.fdc86c44.js"><link rel="prefetch" href="/assets/js/65.a45bc5bb.js"><link rel="prefetch" href="/assets/js/66.6f4ff24e.js"><link rel="prefetch" href="/assets/js/67.a5d24b59.js"><link rel="prefetch" href="/assets/js/68.561f1a1c.js"><link rel="prefetch" href="/assets/js/69.3666161a.js"><link rel="prefetch" href="/assets/js/70.1c5e56f9.js"><link rel="prefetch" href="/assets/js/71.90188632.js"><link rel="prefetch" href="/assets/js/72.8615a90f.js"><link rel="prefetch" href="/assets/js/73.8b5ad8b7.js"><link rel="prefetch" href="/assets/js/9.500b2e32.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.04ae42ee.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.876c9db6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><nav class="navbar navbar-expand-md navbar-light bg-white fixed-top"><div class="container"><a href="/" class="navbar-brand"><img src="/assets/img/logo.png">  </a> <button type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button> <div id="navbarsExampleDefault" class="collapse navbar-collapse"><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tags</a></li><li class="nav-item"><a href="/about.html" class="nav-link">About me</a></li> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></ul></div></div></nav></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="mobile-home-link navbar-brand"><img src="/assets/img/logo.png">  </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/">Blog</a></li><li class="mobile-nav-item"><a href="/tag/">Tags</a></li><li class="mobile-nav-item"><a href="/about.html">About me</a></li> <li class="mobile-nav-item"><a href="./rss.xml" class="feed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></li></ul></div></div></div> <div class="container wrapmain"><div id="vuepress-theme-blog__post-layout" data-v-1c1f12bb><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content" data-v-1c1f12bb><div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-8" data-v-1c1f12bb><header data-v-1c1f12bb><span class="text-muted" data-v-1c1f12bb><div class="post-meta" data-v-1c1f12bb><!----> <div class="post-meta-date"><time pubdate itemprop="datePublished" datetime="2012-01-03T00:00:00.000Z">
+Tue, Jan 03 2012
+</time></div> <!----></div></span> <h1 itemprop="name headline" class="article-head mt-3" data-v-1c1f12bb>
+  Arithmetic Lexer
+  </h1> <p class="lead" data-v-1c1f12bb>As part of a project dealing with implementing algorithm...</p> <div data-v-1c1f12bb><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><!----></a> <!----></div></span><span><div class="d-flex align-items-center"><a class="profile-avatar"><img src="/assets/img/mic.jpg" alt="Michael KAMM" class="avatar-image"></a> <div><span>Michael KAMM</span>  
+      <a href="https://twitter.com/GnOtaku" target="_blank" rel="noopener noreferrer" class="external btn btn-sm btn-outline-dark">Follow</a></div></div></span></div></header></div></div> <div class="row justify-content-center text-center mt-4 mb-40" data-v-1c1f12bb><div class="col-md-9" data-v-1c1f12bb><img src="/assets/posts/lexer.jpeg" class="featuredimg" data-v-1c1f12bb></div></div> <div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-8" data-v-1c1f12bb><div itemprop="articleBody" class="content__default" data-v-1c1f12bb><h3 id="introduction"><a href="#introduction" class="header-anchor">#</a> INTRODUCTION</h3> <p>As part of a project dealing with implementing algorithm to do some
+arithmetic on numbers of arbitrary size, arbitrary base and arbitrary
+symbols, I had to think about how to write a flexible lexer, capable of
+cutting very quickly stream of characters (an arithmetic expression) in
+tokens understandable by a parser. So I will write some various articles
+on the lexer, parser and evaluation of an arithmetic expression by
+making it a point to highlight the various optimizations that I made in
+the algorithms to make them as fast as possible. The language used is
+C++, but since our priority is to reach the best performances possible,
+we will avoid too costly features such as inheritance, virtual class,
+etc. .. This article will details the following points:</p> <ol><li>Input and number representation.</li> <li>Memory management.</li> <li>The Lexer.</li></ol> <h3 id="input-and-number-representation"><a href="#input-and-number-representation" class="header-anchor">#</a> Input and number representation</h3> <p>In order not to lose precious seconds in unnecessary operations such as
+resizing of string, repeated IO operations, etc… An expression input
+will consist of:</p> <ol><li>Length of the base.</li> <li>Symbols of the base.</li> <li>Length of the arithmetic expression.</li> <li>The arithmetic expression, without blank characters..</li></ol> <p>A correct input could be:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token number">1</span> <span class="token number">5</span> abcde <span class="token number">10</span> bc+bca+dec
+</code></pre></div><p>So we can easily read the input data with the following code:</p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token keyword">char</span> newline<span class="token punctuation">;</span>
+
+<span class="token comment">// Read the base size</span>
+<span class="token keyword">unsigned</span> base_size<span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin <span class="token operator">&gt;&gt;</span> base_size<span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>newline<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Read the base's symbols</span>
+<span class="token keyword">char</span><span class="token operator">*</span> base <span class="token operator">=</span> new <span class="token keyword">char</span><span class="token punctuation">[</span>base_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin<span class="token punctuation">.</span><span class="token function">read</span> <span class="token punctuation">(</span>base<span class="token punctuation">,</span> base_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+base<span class="token punctuation">[</span>base_size<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'\0'</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Read the expression's size</span>
+<span class="token keyword">unsigned</span> expr_size<span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin <span class="token operator">&gt;&gt;</span> expr_size<span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>newline<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Read the expression</span>
+<span class="token keyword">char</span><span class="token operator">*</span> expr <span class="token operator">=</span> new <span class="token keyword">char</span><span class="token punctuation">[</span>expr_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+std<span class="token operator">::</span>cin<span class="token punctuation">.</span><span class="token function">read</span> <span class="token punctuation">(</span>expr<span class="token punctuation">,</span> expr_size <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+expr<span class="token punctuation">[</span>expr_size<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'\0'</span><span class="token punctuation">;</span>
+</code></pre></div><p>The variable named newline will only be used to « absorb » the \n at
+the end of each line. Our expression is represented as a simple array
+of characters (we could have done the same thing in C). If you want to
+compile the code above, do not forget to add a</p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+</code></pre></div><p>at the top of your file.</p> <p>Since the role of the lexer is to « cut » our expression into
+tokens (numbers, operators, parentheses), we must ask ourself in what
+form we will store our numbers, which tokens we will use, etc… It
+would be tempting to create a string and to copy the number value
+there, it would be the most intuitive. But since we are looking
+for maximum performances, we will avoid as possible to use dynamic
+memory allocation. Instead we will represent our number as a pair of
+integers (offset, size) representing the beginning of the number in the
+expression (i.e. the index of its first digit in the array representing
+the expression) and its length. So we can work directly on the string
+containing the arithmetic expression.</p> <p>Concerning tokens, we can use a simple enumeration containing an entry for each symbol:</p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token keyword">typedef</span> <span class="token keyword">struct</span>
+<span class="token punctuation">{</span>
+  <span class="token keyword">unsigned</span>  offset<span class="token punctuation">;</span>
+  <span class="token keyword">unsigned</span>  size<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> s_number<span class="token punctuation">;</span>
+
+<span class="token keyword">typedef</span> <span class="token keyword">enum</span>
+<span class="token punctuation">{</span>
+  PLUS    <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">,</span>
+  MINUS   <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">,</span>
+  MULT    <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">,</span>
+  DIV     <span class="token operator">=</span> <span class="token number">6</span><span class="token punctuation">,</span>
+  MOD     <span class="token operator">=</span> <span class="token number">7</span><span class="token punctuation">,</span>
+  LPAR    <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">,</span>
+  RPAR    <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">,</span>
+  NUMBER  <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token punctuation">}</span> e_token<span class="token punctuation">;</span>
+</code></pre></div><p>We will see later why each field of the list is associated with a number.</p> <h3 id="memory-management"><a href="#memory-management" class="header-anchor">#</a> Memory management</h3> <p>We will try as much as possible to do it without dynamic memory
+allocation. Our couples (offset, size) and our tokens are then stored
+on the stack, using the static allocation, avoiding calls to new/delete
+and malloc/free. As we are using the string containing the expression
+to store our intermediate results, our memory consumption will be
+optimized. We must therefore adapt our algorithms for arithmetic in
+order to store the results directly in the string representing the
+expression.</p> <h3 id="the-lexer"><a href="#the-lexer" class="header-anchor">#</a> The Lexer</h3> <p>We will create a <code>Lexer class</code>, containing methods for lexing and some
+private variables such as the string containing the expression, the
+current offset, etc. ..</p> <p>The use of an object has several advantages in our case:</p> <ol><li>This prevents parsing functions to take a lot of arguments (with
+the object of type <code>Lexer</code>, we can afford to give a single argument to
+functions).</li> <li>To determine the next token, the lexer needs some informations,
+including the expression, the offset, the variable used to return
+the possible pair (offset, size) representing a number, etc. .. All
+variables can be stored in the object.</li> <li>This makes the code more readable, without reducing the performances
+of the program.</li></ol> <p>Our <code>Lexer</code> will be defined as follows:</p> <div class="language-c++ extra-class"><pre class="language-text"><code>class Lexer
+{
+  public:
+    Lexer (char* expr, char* table,
+           unsigned expr_size, char* op)
+      : num_ (s_number ()),
+        expr_ (expr),
+        offset_ (0),
+        table_ (table),
+        expr_size_ (expr_size),
+        op_ (op) {}
+    ~Lexer () {}
+
+    unsigned get_token ();
+
+    s_number num_;
+
+  private:
+
+    int
+    get_op_ (char c)
+    {
+      return (int)op_[(int)c];
+    }
+
+    char* expr_;
+    unsigned offset_;
+    char* table_;
+    unsigned expr_size_;
+    char* op_;
+};
+</code></pre></div><p>You have probably noticed that the constructor of our object <code>Lexer</code> takes
+two string parameters named respectively, « table » and « op ». Why
+are they useful ?</p> <p><strong>Table</strong> - Since our program must be able to handle numbers represented
+in an arbitrary base with a set of arbitrary symbols, it would be
+very difficult to evaluate expressions without modification to make
+them easier to compute. So we’re going (during lexing) to transform
+numbers by changing the symbols which they are composed of by a set of
+contiguous numbers starting from 0 and up to (base_size – 1). For
+example:</p> <div class="language-sh extra-class"><pre class="language-sh"><code>Old base <span class="token builtin class-name">:</span> abcde
+New base <span class="token builtin class-name">:</span> 01234
+</code></pre></div><p>It does not change the size of the base, but just the symbols, by this
+wait it becomes easier to perform arithmetic operations on numbers.</p> <p><strong>Op</strong> – The purpose of the variable op is different. During lexing,
+we want to determine, for each symbol read, if it’s an operator or
+not. We can imagine that for expressions of million of characters,
+it makes us millions of tests just for the lexing. We will therefore
+greatly reduce the number of tests by creating an array of 256
+characters which associate, for each operator (using the ASCII code as
+an index in the table) the number that corresponds (the one present
+in the enumeration given above) and setting the value 0 to all other
+characters. This allows us, first to test if a character is an operator,
+and at the same time to know the value associated (to determine which
+operator it is).</p> <p>Finally, the public variable <code>num_</code> will allow the parser, when the lexer
+will return a token of type NUMBER, to get the value of the number that
+will be presented in this variable.</p> <p>We code, we optimize a bit and here is the result:</p> <div class="language-c++ extra-class"><pre class="language-text"><code>unsigned
+Lexer::get_token ()
+{
+  if (offset_ &gt;= expr_size_)
+    return 0;
+
+  int tok = get_op_ (expr_[offset_++]);
+
+  if (tok)
+    return tok;
+
+  expr_[offset_ - 1] = table_[(int)expr_[offset_ - 1]];
+
+  num_.offset = offset_ - 1;
+  unsigned length = 1;
+
+  while (!op_[(int)expr_[offset_]])
+  {
+    expr_[offset_] = table_[(int)expr_[offset_++]];
+    length++;
+  }
+
+  num_.size = length;
+
+  return NUMBER;
+}
+</code></pre></div><p>This code is not the most optimized but in this version of the program
+we will use it like this. Later, during the profiling phase, if it turns
+out that this is part of the program is the slowest, we could optimize
+it.</p></div> <div class="post-meta" data-v-1c1f12bb><!----> <!----> <div itemprop="keywords" class="card-subheading post-meta-tags"><a href="/tag/Ccp" data-v-43160e8a> Ccp </a></div></div></div></div></article> <div class="row justify-content-center" data-v-1c1f12bb><div class="col-md-9" data-v-1c1f12bb><form class="newsletter" data-v-1c1f12bb><div class="newsletter__wrap"><div class="newsletter__title">Newsletter</div> <div class="newsletter__content">Subscribe to get my latest content. No spam.</div> <div class="newsletter__fields"><input type="email" name="email" aria-label="Email" placeholder="Email" required="required" autocapitalize="off" autocorrect="off" data-cy="email" value="" class="newsletter__input"> <button type="submit" data-cy="submit" class="newsletter__button">
+        Subscribe
+      </button></div></div></form> <!----></div></div> <div class="sticker vuepress-toc" data-v-1c1f12bb><div class="vuepress-toc-item vuepress-toc-h3 active"><a href="#introduction" title="INTRODUCTION">INTRODUCTION</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#input-and-number-representation" title="Input and number representation">Input and number representation</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#memory-management" title="Memory management">Memory management</a></div><div class="vuepress-toc-item vuepress-toc-h3"><a href="#the-lexer" title="The Lexer">The Lexer</a></div></div></div></div> <footer class="themefooter"><div class="container"><div class="row justify-content-between"><div class="col"><a href="/"><img src="/assets/img/logo.png" class="logofooter"></a></div> <div class="col"></div> <div class="col"></div> <div class="col text-right"><ul class="list-unstyled"><li class="contact-item"><a href="https://github.com/mawuen" target="_blank" rel="noopener noreferrer" class="external"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+
+</a></li></ul> <ul class="list-unstyled"><li class="copyright-item"><a href="/2012/01/03/arithmetic-lexer/.html#">Licensed MIT.</a></li><li class="copyright-item"><a href="/">Made with ❤ in  Africa</a></li></ul></div></div></div></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.a645ad51.js" defer></script><script src="/assets/js/7.975a3fea.js" defer></script><script src="/assets/js/3.f5cf5793.js" defer></script><script src="/assets/js/25.30e7b88e.js" defer></script><script src="/assets/js/5.99340dc9.js" defer></script><script src="/assets/js/8.49b41bc0.js" defer></script>
+  </body>
+</html>
